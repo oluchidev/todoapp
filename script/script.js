@@ -12,6 +12,10 @@ function addList() {
         createDeleteIcon(li)
         input.value = "";
     }
+    li.addEventListener('click', () => {
+        this.classList.toggle("done")    
+     })
+  
 }
 
 function addListKeyPress(event) {
@@ -41,3 +45,7 @@ for (let i = 0; i < lis.length; i++) {
 
 addBtn.addEventListener('click', addList);
 input.addEventListener('keypress',addListKeyPress)
+
+// for calculator
+
+

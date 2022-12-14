@@ -47,3 +47,7 @@ img{
     color: black;
     /* background-color: black; */
 }
+
+.done{
+    text-decoration: line-through;
+}
